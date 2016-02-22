@@ -32,7 +32,7 @@ puts full_name("Jonathan", "Davis", "Mr.")
 # Fix Broken Code
 
 def full_name(f, l)
-  puts f + " " + l
+  full_name="#{f} #{l}"
 end 
 
 puts full_name("bubba", "chuck")
